@@ -1,0 +1,20 @@
+{
+  "name": "webpack-multiple-page",
+  "version": "1.0.0",
+  "description": "webpack 多页面打包方案",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "webpack --progress --hide-modules"
+  },
+  "author": "hugywin@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
